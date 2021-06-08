@@ -1,0 +1,51 @@
+@media all and (min-width: 480px) {
+    .Login {
+      padding-bottom: 60px;
+    }
+
+    .bar{
+      background-color: black;
+      margin-bottom: 60px;
+      height: 74px;
+      padding-top: 8px;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+
+    .Login form label {
+      margin-top: 2rem;
+    }
+
+    .Login form button {
+      margin-top: 2rem;
+      background-color: grey;
+      border-color: grey;
+    }
+
+    .Login form button:disabled {
+      background-color: rgba(128, 128, 128, 0.87);
+      border-color: rgba(128, 128, 128, 0.87);
+    }
+
+    .Login form button:focus,
+    .Login form button:hover,
+    .Login form button:focus-visible {
+      background-color: grey;
+      border-color: grey;
+      box-shadow: none;
+      outline:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .Login form input:focus,
+    .Login form input:hover,
+    .Login form input:focus-visible {
+      border-color: grey;
+      box-shadow: none;
+      outline:none;
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
