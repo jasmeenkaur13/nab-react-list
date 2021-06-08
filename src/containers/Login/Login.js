@@ -8,7 +8,10 @@ import "./Login.css";
 import { useAppContext } from "../../libs/contextLib";
 import { useUserContext } from "../../libs/userTypeContextLib";
 
-
+/**
+ * 
+ * @returns 
+ */
 export default function Login() {
   const { userHasAuthenticated } = useAppContext();
   const { setUserType } = useUserContext();

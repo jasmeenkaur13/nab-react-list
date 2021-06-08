@@ -21,9 +21,11 @@ npm test
 4. Click on Login Button
 
 ## Areas Of Improvement
-1. Use of Typescript could have made it more readable and scalable
-2. Storybook could have been set up Implementation can help testing the component integration properly
+1. Use of Typescript could have made it more readable and scalable.
+2. Storybook could have been set up Implementation can help testing the component integration properly.
 3. Use of styled Components across the project can give more readablity.
+4. Use of sessionStorage or local storage to maintain the session of a user for a limited time.
+5. Use of proper API data - currently a static list has been passed to component.
 
 ## Overview.
 1. Tried to show the known variance of css and its inclusion with the help of normal css classes and styled components as well.

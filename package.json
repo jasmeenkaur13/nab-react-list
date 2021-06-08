@@ -7,11 +7,13 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "bootstrap": "^5.0.1",
+    "jest": "^26.6.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
+    "react-test-renderer": "^17.0.2",
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
@@ -20,6 +22,29 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "cacheDirectory": "cache",
+    "collectCoverageFrom": [
+      "**/*.js",
+      "!**/eslint-plugin-control/**",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!webpack.config.js"
+    ],
+    "moduleNameMapper": {
+      "^.+\\.(scss)$": "<rootDir>/__mocks__/styleMock.js"
+    },
+    "testRegex": "/__tests__/[^.].*js$",
+    "setupFiles": [
+      "<rootDir>/setup-jest.js",
+      "<rootDir>/__mocks__/localStorageMock.js"
+    ],
+    "setupTestFrameworkScriptFile": "<rootDir>/setup-adapter.js",
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ],
+    "testEnvironment": "jest-environment-jsdom-global"
   },
   "eslintConfig": {
     "extends": [

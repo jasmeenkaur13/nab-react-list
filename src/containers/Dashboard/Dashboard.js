@@ -4,49 +4,23 @@ import NabIcon from "../../images/logo.png"
 import { useAppContext } from "../../libs/contextLib";
 import { useUserContext } from "../../libs/userTypeContextLib";
 import { useHistory } from "react-router-dom";
+import { ListsOfData } from "./Dashboard.data"
 import {
     StyledUnorderedList, StyledListContainer, StyledLabel,
     StyledCheckBox, StyledListContainerHeading, StyledNavigationLink,
     StyledImage
 } from "./Dashboard.style"
 
-const ListsOfData = [{
-    id: 1,
-    Name: "Jasmeen",
-    Age: 32,
-    RequestedAccess: "jira",
-    RequestedAccessName: "JIRA",
-    ApprovedBy: "Jatin",
-    markCompleted: false,
-},
-{
-    id: 2,
-    Name: "Hridaye",
-    Age: 32,
-    RequestedAccess: "confluence",
-    RequestedAccessName: "Confluence",
-    ApprovedBy: "Jatin",
-    markCompleted: true,
-},
-{
-    id: 3,
-    Name: "Hanaaya",
-    Age: 32,
-    RequestedAccess: "payadvice",
-    RequestedAccessName: "Pay Advice",
-    ApprovedBy: "Mark",
-    markCompleted: false,
-},
-{
-    id: 4,
-    Name: "Scott",
-    Age: 34,
-    RequestedAccess: "jira",
-    RequestedAccessName: "JIRA",
-    ApprovedBy: "Mark",
-    markCompleted: false,
-}];
 
+
+/**
+ * The method is responsible for creating a react component which will aceept the data
+ * and perfoms following function as a component
+ * 1. Logout the use from Navigation bar
+ * 2. Show the list of user according to the access on the request
+ * 3. Allow them to complete if they have specific access.
+ * @returns the List of data according to the accessType and a navigation bar
+ */
 export default function Dashboard() {
     const { userHasAuthenticated } = useAppContext();
     const { userType } = useUserContext();
@@ -54,7 +28,9 @@ export default function Dashboard() {
 
 
     const history = useHistory();
-
+    /**
+     * Change the status of the request
+     */
     const handleChangeCheckbox = id => {
         setList(
             list.map(item => {
@@ -67,12 +43,18 @@ export default function Dashboard() {
         );
     };
 
+    /**
+     * set the userAuthention and reroute to the login page
+     */
     function handleLogout() {
         userHasAuthenticated(false);
         history.push("/");
 
     }
 
+    /**
+     * Filtering of the list according to the usertype
+     */
     const listItems = (
         list.map((item, index) => {
             if (userType === 'admin' || userType === item.RequestedAccess) {
