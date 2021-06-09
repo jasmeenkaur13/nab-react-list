@@ -3,15 +3,14 @@
 ## Install
 
 ```sh
-$ npm install 
-or 
+
 yarn
 
 ```
 
 ## Test
 
-npm test
+yarn test
 
 ## Run
 
