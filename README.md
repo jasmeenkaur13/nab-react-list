@@ -16,9 +16,11 @@ npm test
 ## Run
 
 1. yarn Start
-2. On the Web Page Login using any User Name and Password. The access type can be determined from Overview section.
-3. Enter Details
-4. Click on Login Button
+2. Clone the repo https://github.com/jasmeenkaur13/sample-fetch-accestype.git
+3. Follow the instructions and start the server
+4. On the Web Page Login using any User Name and Password. The access type can be determined from Overview section.
+5. Enter Details
+6. Click on Login Button
 
 ## Areas Of Improvement
 1. Use of Typescript could have made it more readable and scalable.
