@@ -1,0 +1,1213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there is a data for admin usertype with update permissions 1`] = `
+<div>
+  <nav
+    className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+  >
+    <span
+      className="font-weight-bold text-muted navbar-brand"
+    >
+      <img
+        className="sc-hKFxyN hLMffp"
+        src="logo.png"
+      />
+    </span>
+    <button
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+    >
+      <a
+        className="sc-eCApnc bBUfuo nav-link"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Logout
+      </a>
+    </div>
+  </nav>
+  <h2>
+    Dashboard
+  </h2>
+  <div
+    className="sc-dlnjwi ckwOgj"
+  >
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Name
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Age
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Approved By
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Requested Access
+    </label>
+    <label
+      className="sc-jSFjdj bWZEOZ form-label"
+      isLast="true"
+    >
+      Completed
+    </label>
+  </div>
+  <ul
+    className="sc-bdnxRM kUrNUp"
+    id="data"
+  >
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jasmeen
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hridaye
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Confluence
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={true}
+            className="form-check-input"
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Completed
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hanaaya
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Pay Advice
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Scott
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          34
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders correctly when there is a data for admin usertype with updating the value 1`] = `
+<div>
+  <nav
+    className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+  >
+    <span
+      className="font-weight-bold text-muted navbar-brand"
+    >
+      <img
+        className="sc-hKFxyN hLMffp"
+        src="logo.png"
+      />
+    </span>
+    <button
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+    >
+      <a
+        className="sc-eCApnc bBUfuo nav-link"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Logout
+      </a>
+    </div>
+  </nav>
+  <h2>
+    Dashboard
+  </h2>
+  <div
+    className="sc-dlnjwi ckwOgj"
+  >
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Name
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Age
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Approved By
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Requested Access
+    </label>
+    <label
+      className="sc-jSFjdj bWZEOZ form-label"
+      isLast="true"
+    >
+      Completed
+    </label>
+  </div>
+  <ul
+    className="sc-bdnxRM kUrNUp"
+    id="data"
+  >
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jasmeen
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={true}
+            className="form-check-input"
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Completed
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hridaye
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Confluence
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={true}
+            className="form-check-input"
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Completed
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hanaaya
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Pay Advice
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Scott
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          34
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`renders correctly when there is a data for jira usertype with update permissions 1`] = `
+Array [
+  <div>
+    <nav
+      className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+    >
+      <span
+        className="font-weight-bold text-muted navbar-brand"
+      >
+        <img
+          className="sc-hKFxyN hLMffp"
+          src="logo.png"
+        />
+      </span>
+      <button
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="justify-content-end navbar-collapse collapse"
+      >
+        <a
+          className="sc-eCApnc bBUfuo nav-link"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Logout
+        </a>
+      </div>
+    </nav>
+    <h2>
+      Dashboard
+    </h2>
+    <div
+      className="sc-dlnjwi ckwOgj"
+    >
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Name
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Age
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Approved By
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Requested Access
+      </label>
+      <label
+        className="sc-jSFjdj bWZEOZ form-label"
+        isLast="true"
+      >
+        Completed
+      </label>
+    </div>
+    <ul
+      className="sc-bdnxRM kUrNUp"
+      id="data"
+    >
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Jasmeen
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            32
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Jatin
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            JIRA
+          </label>
+          <div
+            className="sc-gKAaRy eXCtXX form-check"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              disabled={false}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              title=""
+            >
+              Incomplete
+            </label>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Scott
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            34
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Mark
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            JIRA
+          </label>
+          <div
+            className="sc-gKAaRy eXCtXX form-check"
+          >
+            <input
+              checked={false}
+              className="form-check-input"
+              disabled={false}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              title=""
+            >
+              Incomplete
+            </label>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>,
+  ")",
+]
+`;
+
+exports[`renders correctly when there is a data for readonly usertype with no update permissions 1`] = `
+Array [
+  <div>
+    <nav
+      className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+    >
+      <span
+        className="font-weight-bold text-muted navbar-brand"
+      >
+        <img
+          className="sc-hKFxyN hLMffp"
+          src="logo.png"
+        />
+      </span>
+      <button
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="justify-content-end navbar-collapse collapse"
+      >
+        <a
+          className="sc-eCApnc bBUfuo nav-link"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Logout
+        </a>
+      </div>
+    </nav>
+    <h2>
+      Dashboard
+    </h2>
+    <div
+      className="sc-dlnjwi ckwOgj"
+    >
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Name
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Age
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Approved By
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Requested Access
+      </label>
+      <label
+        className="sc-jSFjdj bWZEOZ form-label"
+        isLast="true"
+      >
+        Completed
+      </label>
+    </div>
+    <ul
+      className="sc-bdnxRM kUrNUp"
+      id="data"
+    >
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Jasmeen
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            32
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Jatin
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            JIRA
+          </label>
+          <label
+            className="sc-jSFjdj bWZEOZ form-label"
+            isLast="true"
+          >
+            Incomplete
+          </label>
+        </div>
+      </li>
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Hridaye
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            32
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Jatin
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Confluence
+          </label>
+          <label
+            className="sc-jSFjdj bWZEOZ form-label"
+            isLast="true"
+          >
+            Completed
+          </label>
+        </div>
+      </li>
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Hanaaya
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            32
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Mark
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Pay Advice
+          </label>
+          <label
+            className="sc-jSFjdj bWZEOZ form-label"
+            isLast="true"
+          >
+            Incomplete
+          </label>
+        </div>
+      </li>
+      <li>
+        <div
+          className="sc-gtsrHT eHuwNW"
+        >
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Scott
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            34
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            Mark
+          </label>
+          <label
+            className="sc-jSFjdj hzwScC form-label"
+          >
+            JIRA
+          </label>
+          <label
+            className="sc-jSFjdj bWZEOZ form-label"
+            isLast="true"
+          >
+            Incomplete
+          </label>
+        </div>
+      </li>
+    </ul>
+  </div>,
+  ")",
+]
+`;
+
+exports[`renders correctly when there is a no data for invalid usertype 1`] = `
+Array [
+  <div>
+    <nav
+      className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+    >
+      <span
+        className="font-weight-bold text-muted navbar-brand"
+      >
+        <img
+          className="sc-hKFxyN hLMffp"
+          src="logo.png"
+        />
+      </span>
+      <button
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="justify-content-end navbar-collapse collapse"
+      >
+        <a
+          className="sc-eCApnc bBUfuo nav-link"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Logout
+        </a>
+      </div>
+    </nav>
+    <h2>
+      Dashboard
+    </h2>
+    <div
+      className="sc-dlnjwi ckwOgj"
+    >
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Name
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Age
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Approved By
+      </label>
+      <label
+        className="sc-jSFjdj hzwScC form-label"
+      >
+        Requested Access
+      </label>
+      <label
+        className="sc-jSFjdj bWZEOZ form-label"
+        isLast="true"
+      >
+        Completed
+      </label>
+    </div>
+    <ul
+      className="sc-bdnxRM kUrNUp"
+      id="data"
+    />
+  </div>,
+  ")",
+]
+`;
+
+exports[`renders correctly when we logout 1`] = `
+<div>
+  <nav
+    className="mb-3 navbar navbar-expand-md navbar-light bg-dark"
+  >
+    <span
+      className="font-weight-bold text-muted navbar-brand"
+    >
+      <img
+        className="sc-hKFxyN hLMffp"
+        src="logo.png"
+      />
+    </span>
+    <button
+      aria-label="Toggle navigation"
+      className="navbar-toggler collapsed"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="justify-content-end navbar-collapse collapse"
+    >
+      <a
+        className="sc-eCApnc bBUfuo nav-link"
+        href="#"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+      >
+        Logout
+      </a>
+    </div>
+  </nav>
+  <h2>
+    Dashboard
+  </h2>
+  <div
+    className="sc-dlnjwi ckwOgj"
+  >
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Name
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Age
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Approved By
+    </label>
+    <label
+      className="sc-jSFjdj hzwScC form-label"
+    >
+      Requested Access
+    </label>
+    <label
+      className="sc-jSFjdj bWZEOZ form-label"
+      isLast="true"
+    >
+      Completed
+    </label>
+  </div>
+  <ul
+    className="sc-bdnxRM kUrNUp"
+    id="data"
+  >
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jasmeen
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hridaye
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Jatin
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Confluence
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={true}
+            className="form-check-input"
+            disabled={true}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Completed
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Hanaaya
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          32
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Pay Advice
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+    <li>
+      <div
+        className="sc-gtsrHT eHuwNW"
+      >
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Scott
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          34
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          Mark
+        </label>
+        <label
+          className="sc-jSFjdj hzwScC form-label"
+        >
+          JIRA
+        </label>
+        <div
+          className="sc-gKAaRy eXCtXX form-check"
+        >
+          <input
+            checked={false}
+            className="form-check-input"
+            disabled={false}
+            onChange={[Function]}
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            title=""
+          >
+            Incomplete
+          </label>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

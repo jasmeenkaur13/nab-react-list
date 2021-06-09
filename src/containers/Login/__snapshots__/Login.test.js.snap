@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly initially 1`] = `
+Array [
+  <div
+    className="Login"
+  >
+    <div
+      className="bar"
+    >
+      <img
+        src="logo.png"
+        style={
+          Object {
+            "height": "3rem",
+            "width": "7rem",
+          }
+        }
+      />
+    </div>
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+        size="lg"
+      >
+        <label
+          className="form-label"
+          htmlFor="userName"
+        >
+          UserName
+        </label>
+        <input
+          autoFocus={true}
+          className="form-control"
+          id="userName"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+        size="lg"
+      >
+        <label
+          className="form-label"
+          htmlFor="password"
+        >
+          Password
+        </label>
+        <input
+          className="form-control"
+          id="password"
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-primary btn-block btn-lg"
+        disabled={true}
+        type="submit"
+      >
+        Login
+      </button>
+    </form>
+  </div>,
+  ")",
+]
+`;
